@@ -1,0 +1,42 @@
+div.entry-title:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+	text-weight: bold;
+	background: rgba(31,46,111,0.5);
+	color: #FFFFFF;
+}
+div.entry-title {
+	margin-top: 15px;
+	margin-right: 200px;
+	opacity:0.8;
+	filter: alpha(opacity=80);
+	font-size: 15;
+	color: #000000;
+cursor: pointer;
+}
+h2 {
+	font-family: nevis;
+}
+.content img {
+	margin-left: -20px;
+}
+.sidemenu {
+	margin-left: 750px;
+}
+.sidemenu img {
+	margin-bottom: -10px;
+}
+div.textbox {
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 3px 3px 3px 3px;
+	background-color: rgba(239,182,31,0.5);
+	padding: 0px 7px;
+}
+.content ul {
+	list-style-type: disc;
+}
+td {
+	color:#555555;
+	font-size: 13;
+}

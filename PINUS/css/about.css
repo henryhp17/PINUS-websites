@@ -1,0 +1,24 @@
+.open td a {
+	font-family: nevis;
+	font-weight: normal;
+	font-size: 13px;
+	opacity: 0.7;
+	color: #555;
+}
+.open td a:hover {
+	opacity: 1.0;
+}
+.open table {
+	width: 400px;
+	margin-top: -55px;
+	margin-left: -470px;
+}
+#selection {
+	position: relative;
+	margin-top: -10px;
+	margin-left: 59px;
+	margin-bottom: 15px;
+}
+.sidemenu img {
+	margin-bottom: -10px;
+}

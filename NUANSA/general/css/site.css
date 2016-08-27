@@ -1,0 +1,338 @@
+@font-face {
+	font-family: pier;
+	src: url('../font/pier.otf');
+}
+@font-face {
+	font-family: engravers;
+	src: url('../font/engravers.ttf');
+}
+@font-face {
+	font-family: brannboll;
+	src: url('../font/brannboll.ttf');
+}
+
+#test {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	visibility: hidden;
+}
+/* General Content */
+body {
+	margin: 0;
+   	padding: 0;
+   	height: 100%;
+   	overflow-y: hidden;
+   	background: url('../img/bgpattern.jpg');
+}
+#wrapper {
+   	min-height: 100%;
+}
+#main {
+	position: absolute;
+	margin-top: 140px;
+	width: 100%;
+	min-width: 1280px;
+	overflow: hidden;   /* Height of the footer */
+}
+.main-content {
+	position: relative;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	z-index: 7;
+}
+a {
+	text-decoration: none;
+}
+.background-image, .background-custom {
+	position: absolute;
+	bottom: 50px;
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+	opacity: 0.5;
+}
+.linkmenu ul, .tab-menu ul, #producersc ul {
+	list-style-type: none;
+}
+.linkmenu ul li{
+	float: left;
+}
+
+/* Header */
+#header {
+	position: absolute;
+   	padding: 3px;
+   	width: 100%;
+   	min-width: 1280px;
+   	height: 140px;
+   	z-index: 5;
+}
+#title {
+	position: relative;
+	width: 200px;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#head-menu {
+	position: relative;
+	width: 80%;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+	border: 1px #FFFFFF;
+	border-style: solid none;
+}
+#head-menu ul {
+	position: relative;
+	width: 920px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+#head-menu ul li {
+	padding-left: 40px;
+	padding-right: 40px;
+	float: left;
+}
+#head-menu ul li a {
+	font-family: pier;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+#past-nuansa {
+	font-family: pier;
+	color: #FFEA00;
+	position: fixed;
+	top: -15px;
+	float: left;
+	right:0;
+	padding: 0px 0px;
+	z-index: 20;
+	width: 250px;
+}
+#past-nuansa ul li a {
+	text-decoration: none;
+	color: #FFEA00;
+}
+#past-nuansa ul li {
+	float: left;
+	padding: 10px 5px;
+	background-color: #000000;
+	border-radius: 0px 0px 10px 10px;
+}
+#past-nuansa ul li:hover {
+	padding-top: 20px;
+	cursor: pointer;
+}
+/* Footer */
+#footer {
+
+}
+
+/* Tab Content Style */
+.tab-menu {
+	font-family: pier;
+	font-size: 24px;
+	text-align: right;
+	color: #FFFFFF;
+	float: left;
+	margin-top: 10px;
+	width: 30%;
+	padding: 30px 0px 60px 0px;
+	border-right: 1px solid rgba(255,255,255,0.5);
+}
+.tab-menu li {
+	float: right;
+	cursor: pointer;
+	border-radius: 10px 0px 0px 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	width: 180px;
+	padding-right: 5px;
+}
+.tab-menu li:hover {
+	padding-right: 25px;
+}
+.tab-content {
+	float: left;
+	border-radius: 5px;
+	width: 65%;
+	height: 100%;
+	overflow-y: auto; 
+}
+.tab-content p, .tab-content li, .wide-content p {
+	font-family: pier;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.wide-content {
+	float: left;
+	border-radius: 5px;
+	width: 100%;
+	height: 100%;
+	overflow-y: auto; 
+}
+.wide-content a {
+	color: #FFEA00;
+}
+.content-title {
+	margin-top: -10px;
+	font-family: pier;
+	font-size: 30px;
+	font-weight: normal;
+	color: #FFEA00;
+}
+.belowtitle {
+	margin-top: -48px;
+	margin-bottom: -15px;
+	color: #000;
+	border: 0px solid rgb(128, 128, 128);
+	height: 2px;
+	background: #FFEA00;
+}
+
+/* Home Page */
+#trailer {
+	width: 100%;
+	margin-top: 0px;
+}
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper object,
+.videoWrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+#home-banner {
+	position: absolute;
+	top: 65%;
+	float: left;
+	width: 500px;
+	height: 100px;
+	background-color: rgba(255,255,255,0.3);
+	z-index: 7;
+}
+#home-logo {
+	float: left;
+	position: relative;
+	margin-top: 0px;
+	margin-left: 0px;
+	z-index: 8;
+}
+#home-details {
+	float: left;
+	position: relative;
+	font-family: myriad;
+	color: rgb(0,0,0);
+}
+#home-details h2 {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: -10px;
+}
+
+/* NUANSA Page */
+#coming-soon {
+	position: relative;
+	float: left;
+	width: 200px;
+	margin-top: 15%;
+	margin-left: 45%;
+	z-index: 8;
+	font-family: design;
+}
+
+/* About Page */
+#about-usc {
+	margin-top: 30px;
+	padding: 50px;
+}
+#vision-missionc {
+	margin-top: 10px;
+	padding: 20px 20px;
+}
+#corporate-videoc {
+	margin-top: 50px;
+	padding: 20px;
+}
+
+/* History Page */
+#rolesc {
+	padding: 50px;
+}
+#history-menu {
+	position: relative;
+	margin-top: -420px;
+	margin-left: 7px;
+	z-index: 1;
+}
+#history-menu td:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 7px rgb(0,0,0);
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 10px;
+}
+.history-title {
+	color: #FFEA00;
+}
+.history-content {
+	padding: 20px;
+}
+
+/* Contact Us Page */
+#contact-content {
+	position: absolute;
+	width: 60%;
+	margin-left: 55%;
+	margin-top: 30px;
+	padding-left: 50px;
+	overflow: visible;
+	letter-spacing: 2px;
+}
+#adminc table {
+	position: relative;
+	margin-top: -80px;
+	margin-left: 20px;
+	height: 70px;
+	z-index: 10;
+}
+#adminc p, #soc-icon{
+	margin-left: 15px;
+}
+#adminc h4 {
+	margin-bottom: 0px;
+}
+#adminc td:hover {
+	cursor: pointer;
+	box-shadow: 3px 3px 7px rgb(0,0,0);
+	background-color: rgba(255,255,255,0.8);
+	border-radius: 10px;
+}
+.producers-mail a {
+	font-size: 24px;
+	color: rgb(238, 106, 86);
+}
+
+/* Press Page */
+.press-title, .event-title {
+	font-family: pier;
+	font-size: 22px;
+	color: #FFEA00;
+	line-height: 25px;
+}
+.event-title {
+	margin-bottom: -22px;
+}

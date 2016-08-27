@@ -1,0 +1,42 @@
+#formbox {
+	margin-top: 80px;
+	margin-left: 80px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+	background-color: rgba(255,58,59,0.0);
+	font-size: 15;
+	font-family: gothic;
+	color: #555;
+}
+span.subcont {
+	font-size: 10;
+}
+td {
+	font-size: 13;
+}
+p.title {
+	font-size: 23;
+	font-family: nexa;
+	margin-bottom: 12px;
+}
+input, textarea
+{
+	background-color: rgba(255,255,255,0.3);
+	border: 0;
+	box-shadow: 0px 3px 5px 0px #bbbbbb;
+	border-radius: 2px 2px 2px 2px;
+	font-size: 20;
+}
+input#submit
+{
+	border: 2px;
+	border-style: outset;
+	padding: 3px 10px;
+	margin-left: 265px;
+	font-family: 'Century Gothic';
+	font-size: 15;
+}
+input#submit:active
+{
+	border-style: inset;
+}

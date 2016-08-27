@@ -1,0 +1,25 @@
+<!--
+					rssmikle_url="http://www.pinusonline.com/manusia/";
+					rssmikle_frame_width="170";
+					rssmikle_frame_height="315";
+					rssmikle_target="_blank";
+					rssmikle_font="Arial, Helvetica, sans-serif";
+					rssmikle_font_size="12";
+					rssmikle_border="off";
+					rssmikle_css_url="";
+					rssmikle_title="off";
+					rssmikle_title_bgcolor="#0066FF";
+					rssmikle_title_color="#FFFFFF";
+					rssmikle_title_bgimage="http://";
+					rssmikle_item_bgcolor="rgba(255,255,255,0.0)";
+					rssmikle_item_bgimage="http://";
+					rssmikle_item_title_length="55";
+					rssmikle_item_title_color="#666666";
+					rssmikle_item_border_bottom="on";
+					rssmikle_item_description="on";
+					rssmikle_item_description_length="100";
+					rssmikle_item_description_color="#666666";
+					rssmikle_item_date="off";
+					rssmikle_item_description_tag="off";
+					rssmikle_item_podcast="icon";
+				//-->

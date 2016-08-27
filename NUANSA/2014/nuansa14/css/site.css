@@ -1,0 +1,408 @@
+@font-face {
+	font-family: design;
+	src: url('../font/designosaur.ttf');
+}
+@font-face {
+	font-family: geneva;
+	src: url('../font/geneva.ttf');
+}
+@font-face {
+	font-family: dextera;
+	src: url('../font/dextera.ttf');
+}
+@font-face {
+	font-family: myriad;
+	src: url('../font/myriadpro.otf');
+}
+
+#test {
+	background-color: red;
+	height: 100px;
+	width: 100px;
+	visibility: hidden;
+}
+/* General Content */
+body {
+	margin: 0;
+   	padding: 0;
+   	height: 100%;
+   	overflow-y: hidden;
+}
+#wrapper {
+   	min-height: 100%;
+}
+#main {
+	position: absolute;
+	margin-top: 56px;
+	width: 100%;
+	min-width: 1280px;
+	overflow: hidden;   /* Height of the footer */
+}
+a {
+	text-decoration: none;
+}
+#contact-content h3, #about-content h3 {
+	font-family: dextera;
+	font-size: 25px;
+	margin-left: 20px;
+	line-height: 25px;
+}
+.background-image {
+	position: absolute;
+	margin-top: -56px;
+	width: 100%;
+	z-index: 0;
+}
+.linkmenu ul, .tab-menu ul, #producersc ul, .namelist ul {
+	list-style-type: none;
+}
+.linkmenu ul li, .tab-menu ul li {
+	float: left;
+}
+.text-box {
+	position: absolute;
+	z-index: 3;
+	background-color: rgba(255,255,255,0.5);
+	font-family: geneva;
+}
+
+/* Header */
+#header {
+	position: absolute;
+   	background: rgba(0,0,0,0.8);
+   	padding: 3px;
+   	width: 100%;
+   	min-width: 1280px;
+   	height: 50px;
+   	z-index: 5;
+}
+#title {
+	float: left;
+	height: 100%;
+	margin-left: 15px;
+}
+#head-menu {
+	float: right;
+}
+#head-menu ul {
+	position: relative;
+	float: left;
+	bottom: 0;
+}
+#head-menu ul li {
+	padding-right: 40px;
+}
+#head-menu ul li a {
+	font-family: design;
+	font-size: 18px;
+	letter-spacing: 1px;
+	color: rgb(255,255,255);
+}
+#nuansa-nav a {
+	color: rgb(255,222,0) !important;
+}
+#selection {
+	position: absolute;
+	border-style: none;
+	background: rgb(255,222,0);
+	margin-top: 50px;
+	margin-left: 40px;
+	height: 3px;
+}
+#ticket {
+	position: relative;
+	float: right;
+	margin-top: -15px;
+	height: 140px;
+}
+#ticket h1 {
+	font-family: design;
+	text-align: center;
+	margin-top: -120px;
+	margin-left: -5px;
+	color: rgb(0,0,0);
+	line-height: 35px;
+}
+
+/* Footer */
+#footer {
+   	position: absolute;
+   	width: 100%;
+  	bottom: 0;
+   	min-width: 1280px;
+   	height: 80px;   /* Height of the footer */
+   	background: rgb(255,222,0);
+   	font-family: geneva;
+   	z-index: 5;
+   	padding: 3px;
+   	text-align: center;
+}
+#foot-menu ul {
+	float: right;
+	margin-right: 20px;
+}
+#foot-menu ul li a {
+	color: rgb(0,0,0);
+	margin-right: 5px;
+}
+
+/* Sub Head */
+#subhead {
+	position: absolute;
+	margin-top: 56px;
+	width: 100%;
+	min-width: 1280px;
+}
+#priyayi-title {
+	position: relative;
+	float: left;
+	margin-top: 0px;
+	height: 100px;
+	width: 20%;
+	text-align: center;
+	z-index: 7;
+}
+#sub-menu ul {
+	float: top;
+	margin-top: -20px;
+}
+#sub-menu ul li {
+	position: relative;
+	width: 12%;
+	text-align: center;
+	background-color: rgb(223,163,0);
+	border-radius: 0px 0px 5px 5px; 
+	z-index: 7;
+}
+#sub-menu ul li a {
+	font-family: design;
+}
+
+/* Crew Page */
+#crewlink {
+	position: absolute;
+	float: left;
+	height: 100%;
+	width: 20%;
+	margin-top: -24px;
+	padding-top: 98px;
+	margin-left: 0px;
+	z-index: 3;
+	background-color: rgba(255,255,255,0.5);
+	font-family: myriad;
+}
+#crewlink ul li {
+	text-align: right;
+	padding: 20px 30px;
+}
+#crewlink ul li:hover {
+	cursor: pointer;
+	background-color: rgba(255,222,0,1) !important;
+}
+.main-content {
+	z-index: 3;
+	font-family: geneva;
+}
+#crews {
+	position: relative;
+	margin-left: 20%;
+	margin-top: 26px;
+	text-align: center;
+	overflow: auto;
+}
+.crew-content {
+	margin: auto;
+}
+.team-name {
+	font-size: 22px;
+	font-weight: bold;
+	padding-bottom: 15px;
+	padding-top: 5px;
+}
+.space {
+	height: 20px;
+}
+.job-pos {
+	font-weight: bold;
+}
+.crew-photo {
+	width: 200px;
+	padding: 0px 20px;
+	margin: auto;
+	cursor: pointer;
+}
+.crew-photo img {
+	width: 100%;
+	height: 100%;
+	border-radius: 15px;
+	box-shadow: 3px 3px 7px rgb(0,0,0);
+}
+#popup-bg {
+	width: 100%;
+	height: 105%;
+	position: absolute;
+	margin-top: -40px;
+	z-index: 10;
+	background-color: rgba(0,0,0,0.8);
+}
+#close {
+	width: 800px;
+	margin: auto;
+	color: rgb(255,222,0);
+	font-family: geneva;
+	cursor: pointer;
+	text-align: right;
+}
+#writeup {
+	width: 800px;
+	margin: auto;
+}
+#writeup h3 {
+	font-family: design;
+	color: rgb(255,255,255);
+	font-size: 25px;
+}
+#writeup p {
+	font-family: geneva;
+	color: rgb(255,255,255);
+}
+
+/* Cast Page */
+#casts {
+	position: absolute;
+	margin-top: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+#castlink {
+	position: absolute;
+	bottom: 100px;
+	z-index: 5;
+	color: #000;
+	height: 100px;
+	width: 100%;
+    background: rgba(255,255,255,0.5); /* for non-css3 browsers */
+    -ms-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#cccccc', endColorstr='#000000'); /* for IE */
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,0)), to(rgba(255,255,255,0.8))); /* for webkit browsers */
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0),  rgba(255,255,255,0.8)); /* for firefox 3.6+ */
+}
+#castname {
+	position: relative;
+	width: 800px;
+	margin: auto;
+}
+#castlink ul {
+	position: relative;
+	margin-top: 65px;
+}
+#castlink ul li {
+	float: left;
+	font-family: design;
+	text-align: center;
+	margin-right: 40px;
+	text-shadow: 3px 3px 15px rgb(0,0,0);
+}
+#castlink ul li:hover {
+	cursor: pointer;
+}
+.char-desc {
+	position: absolute;
+	z-index: 7;
+	width: 35%;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,0.8);
+	padding: 10px 20px;
+}
+#gadis-desc {
+	margin-left: 5%;
+}
+#lantip-desc, #noegroho-desc, #marie-desc, #ngadiyem-desc, #martokebo-desc, #eyang-desc {
+	margin-left: 60%;
+}
+.belowtitle {
+	margin-top: -15px;
+	color: #000;
+	border: 0px solid rgb(128, 128, 128);
+	height: 2px;
+	opacity: 0.5;
+    background: #999; /* for non-css3 browsers */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#cccccc'); /* for IE */
+    background: -webkit-gradient(linear, left top, right top, from(#000), to(#ccc)); /* for webkit browsers */
+    background: -moz-linear-gradient(left,  #000,  #ccc); /* for firefox 3.6+ */
+}
+
+/* Synopsis Page */
+#bg {
+	position: absolute;
+	z-index: 3;
+	background-color: rgba(255,255,255,0.5);
+	width: 30%;
+	height: 70px;
+	padding: 10px;
+}
+#synopsis-content {
+	width: 30%;
+	padding: 10px;
+	overflow: auto;
+	position: absolute;
+	margin-top: 90px;
+}
+
+/* News Page */
+#coming-soon {
+	position: relative;
+	float: left;
+	width: 200px;
+	margin-top: 15%;
+	margin-left: 45%;
+	z-index: 8;
+	font-family: design;
+}
+/* Sponsors Page */
+#sponsors-content, #partners-content {
+	margin: 30px auto;
+	position: relative;
+	z-index: 4;
+	width: 1200px;	
+	overflow: auto;
+	background-color: rgba(255,255,255,0.5);
+	padding: 5px;
+
+}
+#sponsors-content span, #partners-content span {
+	font-size: 22px;
+	font-weight: bold;
+	margin: 0px 100px;
+	font-family: design;
+}
+#sponsors-content table, #partners-content table {
+	margin: -30px auto;
+	text-align: center;
+}
+#sponsors-content img {
+	vertical-align: middle;
+}
+#partners-content img {
+	vertical-align: middle;
+	margin: 0px 10px;
+}
+.s-title
+{
+	padding-top: 30px;
+	font-family: geneva;
+	font-weight: bold;
+	font-size: 21px;
+}
+#bronze1 img {
+	margin: 0px 10px;
+}
+#silver img {
+	margin-top: 10px;
+}
+#gold img {
+	margin-bottom: -20px;
+}
+#support img {
+	margin-top: 10px;
+}
